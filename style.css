@@ -1,0 +1,29 @@
+.artwork:hover .score-circle {
+  color: #FF3530;
+  border-radius: 50%;
+  border: 0.1em solid #FF3530;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  font-size: 12vw;
+  vertical-align: middle;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  /*background-color: rgba(0, 0, 0, 0.75);*/
+}
+
+.artwork:hover img {
+  opacity: 0.5;
+}
+
+.score-circle {
+  display: none;
+}
+
+.artwork {
+  position: relative;
+}
