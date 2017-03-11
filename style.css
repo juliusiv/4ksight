@@ -1,4 +1,4 @@
-.artwork:hover .score-circle {
+.artwork:hover .injected {
   color: #FF3530;
   border-radius: 50%;
   border: 0.1em solid #FF3530;
@@ -8,22 +8,20 @@
   top: 0;
   left: 0;
   z-index: 10;
-  font-size: 12vw;
-  vertical-align: middle;
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle;
-  /*background-color: rgba(0, 0, 0, 0.75);*/
+  font-size: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.artwork {
+  position: relative;
 }
 
 .artwork:hover img {
   opacity: 0.5;
 }
 
-.score-circle {
+.injected {
   display: none;
-}
-
-.artwork {
-  position: relative;
 }
