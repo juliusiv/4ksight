@@ -1,2 +1,4 @@
-# p4k-reviews
-Show the Pitchfork reviews for albums without having to click on the link.
+# 4ksight
+> Pronounced "forksight"
+
+Show Pitchfork reviews for albums without having to actually go to the review page.
