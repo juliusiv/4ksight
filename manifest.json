@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "p4k-reviews",
+  "name": "4ksight",
   "version": "0.1",
   "content_scripts": [
     {
