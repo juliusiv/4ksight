@@ -1,12 +1,18 @@
 {
   "manifest_version": 2,
   "name": "4ksight",
-  "version": "0.1",
+  "version": "0.2",
   "content_scripts": [
     {
       "matches": [
+        "https://pitchfork.com/",
+        "http://pitchfork.com/",
         "https://pitchfork.com/artists/*",
-        "http://pitchfork.com/artists/*"
+        "http://pitchfork.com/artists/*",
+        "https://pitchfork.com/reviews/*",
+        "http://pitchfork.com/reviews/*",
+        "https://pitchfork.com/best/*",
+        "http://pitchfork.com/best/*"
       ],
       "js": ["content.js"],
       "css": ["style.css"]
