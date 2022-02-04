@@ -14,7 +14,7 @@ if (location.pathname.startsWith("/artists")) {
 }
 
 var ARTWORK_DIV_SELECTOR = ".artwork";
-var SCORE_CIRCLE_SELECTOR = ".score-circle";
+var SCORE_CIRCLE_SELECTOR = "[class^=ScoreCircle]";
 
 document.querySelectorAll(REVIEW_SELECTOR).forEach((elem, i) => {
   var artDiv = elem.querySelector(ARTWORK_DIV_SELECTOR);
